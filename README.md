@@ -1,6 +1,6 @@
 # PrintQRcards.com 🖨️
 
-**High-fidelity, print-ready QR cards for the physical world.**
+**High-fidelity, print-ready QR cards for the real world.**
 
 The reality of QR codes is that they are meant for the physical world. While most web components are designed to live strictly in a browser, `PrintQRcards.com` bridges the gap between digital data and physical utility. This project provides a specialized workflow to turn digital strings into professional assets that actually survive the printing process. 🛠️
 
