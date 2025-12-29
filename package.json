@@ -1,0 +1,30 @@
+{
+  "name": "print-qr-cards",
+  "source": "src/index.html",
+  "version": "1.0.0",
+  "description": "A professional web utility for generating and printing high-fidelity, tiled QR cards for physical use.",
+  "scripts": {
+    "start": "parcel src/index.html --host 0.0.0.0 --port 4321",
+    "build": "parcel build src/index.html --public-url ./",
+    "cleanup": "rm -rf dist/* .parcel-cache"
+  },
+  "keywords": [
+    "typescript",
+    "parcel",
+    "qrcode",
+    "print-design",
+    "frontend",
+    "web-to-print",
+    "utility"
+  ],
+  "author": "Jason Sherrick",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.0.0"
+  }
+}
