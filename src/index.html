@@ -3,23 +3,71 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="High-fidelity, print-ready QR cards for the physical world. Zero-data, browser-only generation for maximum privacy.">
+   <meta name="robots" content="index, follow">
+   
+   <meta property="og:type" content="website">
+   <meta property="og:url" content="https://printqrcards.com/">
+   <meta property="og:title" content="PrintQRCards.com | Print-ready QR Codes For the Real World">
+   <meta property="og:description" content="No databases. No tracking. Just high-res pixels ready for your printer.">
+   <meta property="og:image" content="assets/social-preview.png">
+
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="PrintQRCards.com">
+   <meta name="twitter:description" content="Professional QR cards that actually survive the printing process.">
+
    <title>PrintQRCards.com | Print-ready QR Codes For the Real World</title>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="styles/main.css">
+   <script type="module" src="ts/main.ts" defer></script>
 </head>
 <body>
-   <header>
-      <nav>
-
+   <header class="header">
+      <nav class="nav">
       </nav>
    </header>
-   <main>
-      <section class="landing"></section>
-      <section class="app">
-         <div class="app__input">
-            <form action="" class="input__form"></form>
+
+   <main class="content">
+      <section class="landing">
+         <div class="landing__hero">
+            <h1 class="landing__title">Print-ready QR cards. No databases. No tracking.</h1>
+            <p class="landing__brag">This app lives entirely in your browser. Your data never leaves your machine.</p>
+            <button class="landing__button landing__button--primary" id="init-app">LET'S GO</button>
          </div>
-         <div class="app__layout"></div> <!-- for print layout selection -->
+      </section>
+
+      <section class="app app--hidden">
+         <div class="app__input">
+            <form action="" class="input-form">
+               <div class="input-form__group">
+                  <label for="url-input" class="input-form__label">URL/Text</label>
+                  <input type="text" id="url-input" class="input-form__field" placeholder="https://...">
+               </div>
+               <button type="submit" class="input-form__submit">Generate</button>
+            </form>
+         </div>
+
+         <div class="app__layout">
+            <div class="layout-selector">
+               <h3 class="layout-selector__title">Print Layout</h3>
+               <div class="layout-selector__options">
+                  <button class="layout-selector__btn">SINGLE</button>
+                  <button class="layout-selector__btn">DOUBLED</button>
+                  <button class="layout-selector__btn">SQUARED</button>
+                  <button class="layout-selector__btn">CUBED</button>
+               </div>
+            </div>
+         </div>
+
+         <div class="app__preview">
+            </div>
       </section>
    </main>
 
+   <footer class="footer">
+      <p class="footer__text">&copy; 2026 PrintQRCards.com</p>
+   </footer>
 </body>
 </html>
