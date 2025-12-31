@@ -1,0 +1,14 @@
+:root {
+  --feature-clr-red: hsl(0, 78%, 62%);
+  --feature-clr-cyan: hsl(180, 62%, 55%);
+  --feature-clr-orange: hsl(34, 97%, 64%);
+  --feature-clr-blue: hsl(212, 86%, 64%);
+
+  --feature-clr-darkblue: hsl(234, 12%, 34%);
+  --feature-clr-grayishblue: hsl(229, 6%, 66%);
+  --feature-clr-verylightgray: hsl(0, 0%, 98%);
+}
+
+body {
+  color: var(--feature-clr-darkblue);
+}
