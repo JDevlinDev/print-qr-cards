@@ -1,4 +1,4 @@
-# PrintQRcards.com 🖨️
+# PrintQRCards.com 🖨️
 
 **High-fidelity, print-ready QR cards for the real world.**
 
