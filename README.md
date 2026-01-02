@@ -1,6 +1,6 @@
 # PrintQRCards.com 🖨️
 
-**High-fidelity, print-ready QR cards for the real world.**
+**Create and print customized QR cards.**
 
 The reality of QR codes is that they are meant for the physical world. While most web applications are designed to live strictly in a browser, PrintQRcards.com bridges the gap between your digital info and a physical card with a zero-data, privacy-first approach. 🛠️ This project provides a specialized, straight-to-print workflow that converts your links or text into high-quality cards entirely on your own machine. No databases, no tracking, and no complicated setup—it just works, ensuring your information never leaves your browser. 🏁
 
