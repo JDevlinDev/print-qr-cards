@@ -26,22 +26,37 @@
 <body>
    <header class="header">
       <nav class="nav">
+         <div class="left-nav">
+            <ul class="pages">
+               <li class="page-link"><a href="#">Contact</a></li>
+               <li class="page-link"><a href="#">About</a></li>
+            </ul>
+         </div>
+         <div class="center-nav">
+            <span class="home-link">PrintQRCodes</span>
+         </div>
+         <div class="right-nav">
+            <button id="launch-app" class="lauch-button">LETS GO</button>
+         </div>
       </nav>
+      <div class="callout-box">
+         <span class="callout-text">PROMOTE YOUR BRAND</span>
+      </div>
    </header>
 
    <main class="content">
       <!-- LANDING SECTION -->
       <section class="landing">
          <div class="hero">
-            <h1 class="hero__title">Print-ready QR cards. No databases. No tracking.</h1>
-            <p class="hero__humblebrag">This app lives entirely in your browser. Your data never leaves your machine.</p>
-            <button class="landing__button landing__button--primary" id="init-app">LET'S GO</button>
+            <h1 class="hero-title">Print-ready QR cards. No databases. No tracking.</h1>
+            <p class="hero-humblebrag">This app lives entirely in your browser. Your data never leaves your machine.</p>
+            <button class="landing-button is-primary" id="init-app">LET'S GO</button>
          </div>
       </section>
 
       <!-- APP SECTION -->
-      <section class="app -hidden">
-         <div class="input-form-container">
+      <section class="app is-hidden">
+         <div class="form-container">
             <form action="" class="input-form">
                <div class="input-form__group">
                   <label for="url-input" class="input-form__label">URL/Text</label>
