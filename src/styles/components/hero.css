@@ -1,5 +1,6 @@
 .qr-placeholder {
-   height: 350px;
-   width: 350px;
+   height: 150px;
+   width: 150px;
    background-color: #444;
+   border-radius: 0.25rem;
 }
