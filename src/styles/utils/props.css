@@ -1,0 +1,16 @@
+:root {
+
+    /* COLOR PALETTE */
+    --qr--clr-red: hsl(0, 78%, 62%);
+    --qr--clr-cyan: hsl(180, 62%, 55%);
+    --qr--clr-orange: hsl(34, 97%, 64%);
+    --qr--clr-blue: hsl(212, 86%, 64%);
+
+    --qr--clr-darkblue: hsl(234, 12%, 34%);
+    --qr--clr-grayishblue: hsl(229, 6%, 66%);
+    --qr--clr-verylightgray: hsl(0, 0%, 98%);
+    
+
+    /* PADDING AND MARGINS */
+    --qr--padding-section: 0.5rem 1rem;
+}

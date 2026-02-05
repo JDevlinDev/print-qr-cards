@@ -1,8 +1,4 @@
-@import "base/reset.css";
-@import "base/colors.css";
-@import "utils/utilities.css";
-@import "components/header.css";
-@import "components/navigation.css";
-@import "components/callout.css";
-@import "components/hero.css";
-@import "layout/main-grid.css";
+@import 'utils/_root.css';
+@import 'base/_root.css';
+@import 'layout/_root.css';
+@import 'components/_root.css';
