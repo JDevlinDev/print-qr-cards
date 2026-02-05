@@ -31,80 +31,89 @@
 <body>
    <!-- MAIN HEADER -->
    <header class="header">
-      <!-- NAVIGATION -->
-      <nav class="nav">
 
-         <!-- LEFT NAV -->
-         <div class="left-nav">
-            <ul class="nav-links">
-               <li class="nav-link"><a href="#">Contact</a></li>
-               <li class="nav-link"><a href="#">About</a></li>
-            </ul>
-            <!-- CENTER NAV -->
-         </div>
-         <div class="center-nav">
-            <span class="home-link"><a href="#">PrintQRCards</a></span>
-         </div>
-         <!-- RIGHT NAV -->
-         <div class="right-nav">
-            <button id="nav-launch" class="lauch-button">LETS GO</button>
-         </div>
-      </nav>
+      <div class="header__container">
+         <!-- NAVIGATION -->
+         <nav class="nav">
+            <!-- LEFT NAV -->
+            <div class="nav__left">
+               <ul class="nav__links">
+                  <li class="nav__links--link"><a href="#">Contact</a></li>
+                  <li class="nav__links--link"><a href="#">About</a></li>
+               </ul>
+               <!-- CENTER NAV -->
+            </div>
+            <div class="nav__center">
+               <span class="nav__links--link"><a href="#">PrintQRCards</a></span>
+            </div>
+            <!-- RIGHT NAV -->
+            <div class="nav__right">
+               <button id="nav__launch" class="lauch-button">LETS GO</button>
+            </div>
+         </nav>
 
-      <!-- CALL TO ACTION-->
-      <div class="callout-box">
-         <h1 class="callout-text">PROMOTE YOUR BRAND</h1>
+         <!-- CALLOUT BOX-->
+         <div class="callout">
+            <div class="callout__container">
+               <h1 class="callout__text">PROMOTE YOUR BRAND</h1>
+
+            </div>
+         </div>
       </div>
+      
+
    </header>
 
    <!-- BEGIN MAIN CONTENT -->
    <main class="content">
-
-      <!-- LANDING SECTION -->
-      <section class="landing">
-         <div class="hero">
-            <div class="hero-card">
-               <div class="hero-qr-section">
-                  <div class="qr-code">
+      <div class="content__container">
+         <!-- LANDING SECTION -->
+         <section class="landing">
+            <div class="hero">
+               <div class="hero__card">
+                  <div class="hero__card--qr">
                      <canvas class="qr-placeholder"></canvas>
                   </div>
-               </div>
-               <div class="hero-text-section">
-                  <h2 class="hero-card-header">Print QR Cards!</h2>
-                  <p class="hero-card-subtext">Fast, easy, free, and never fucks you out of your data!</p>
+                  <div class="hero__card--header">
+                     <h2>Print QR Cards!</h2>
+                     <p>Fast, easy, free, and never fucks you out of your data!</p>
+                  </div>
                </div>
             </div>
-         </div>
-         <div class="call-to-action">
-            <ul class="impact-list">
-               <li>Impactful bullet</li>
-               <li>Impactful bullet</li>
-               <li>Impactful bullet</li>
-               <li>Impactful bullet</li>
-            </ul>
-            <button id="cta-launch" class="launch-button">LETS GO</button>
-         </div>
+            <div class="cta">
+               <ul>
+                  <li>Impactful bullet</li>
+                  <li>Impactful bullet</li>
+                  <li>Impactful bullet</li>
+                  <li>Impactful bullet</li>
+               </ul>
+               <button id="cta-launch" class="launch-button">LETS GO</button>
+            </div>
       </section>
 
       <!-- APP SECTION -->
       <section class="app is-hidden" id="qr-card-app">
-         <div class="app-section" id="card-layout">
+         <div class="app__card-layout" id="card-layout">
             <h2>Choose Your Card Layout</h2>
             <button class="next-button">NEXT</button>
          </div>
-         <div class="app-section" id="card-generator">
+         <div class="app__card-generator" id="card-generator">
             <h2>Generate Your Card</h2>
             <button class="next-button">NEXT</button>
             <button class="back-button">BACK</button>
          </div>
-         <div class="app-section" id="card-print-layout">
-            <h2>Choose Your Page Layout</h2>
+         <div class="app__print-layout" id="card-print-layout">
+            <h2>Choose Your Print Layout</h2>
          </div>
       </section>
    </main>
 
    <footer class="footer">
-      
+      <div class="footer_container">
+
+         <!-- FOOTER GO HERE!! -->
+
+      </div>
    </footer>
 </body>
 </html>
