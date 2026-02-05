@@ -16,4 +16,7 @@
 
     /* PADDING AND MARGINS */
     --qr--layout-padding-side: 1rem;
+
+    /* COLOR SETTINGS */
+    --qr-body-background: var(--qr--clr-blue);
 }

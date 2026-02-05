@@ -6,14 +6,14 @@
    <meta name="description" content="Print-ready QR cards for the real world. Privacy-first, browser-only QR card generation for maximum productivity.">
    <meta name="robots" content="index, follow">
    
-   <!-- INTRODUCE YOURSELF -->
+   <!-- DO A DESCRIBE -->
    <meta property="og:type" content="website">
    <meta property="og:url" content="https://printqrcards.com/">
    <meta property="og:title" content="PrintQRCards.com | Print-ready QR Codes For the Real World">
    <meta property="og:description" content="No databases. No tracking. Just high-res pixels ready for your printer.">
    <!-- <meta property="og:image" content="assets/social-preview.png"> -->
 
-   <!-- DO TWITTER STUFF -->
+   <!-- DO TWITTER STUFF (BUT SERIOUSLY FUCK TWITTER CAN WE STOP PLEASE?) -->
    <meta name="twitter:card" content="summary_large_image">
    <meta name="twitter:title" content="PrintQRCards.com">
    <meta name="twitter:description" content="Professional QR cards for the real world.">
@@ -32,30 +32,33 @@
 
 <!-- HERE COMES THE USER STUFF -->
 <body>
+
    <!-- BEGIN HEADER -->
    <header class="header">
       <div class="header__container">
 
-         <!-- BEGIN NAVIGATION -->
+         <!-- BEGIN NAV -->
          <nav class="nav">
             <div class="nav__container">
 
-               <!-- LEFT NAV -->
-               <div class="nav__left">
-                  <ul class="nav__links">
-                     <li class="nav__links--link"><a href="#">Contact</a></li>
-                     <li class="nav__links--link"><a href="#">About</a></li>
-                  </ul>
-               </div>
-               <!-- CENTER NAV -->
-               <div class="nav__center">
-                  <span class="nav__links--link"><a href="#">PrintQRCards</a></span>
-               </div>
-               <!-- RIGHT NAV -->
-               <div class="nav__right">
-                  <button id="nav__launch" class="lauch-button">LETS GO</button>
+               <!-- NAV BRANDING -->
+               <div class="nav__branding">
+                  <span><a href="#">PrintQRCards</a></span>
                </div>
 
+               <!-- NAV LINKS -->
+               <div class="nav__links">
+                  <ul>
+                     <li><a href="#">Contact</a></li>
+                     <li><a href="#">About</a></li>
+                  </ul>
+               </div>
+
+               <!-- NAV START BUTTON -->
+               <div class="nav__start">
+                  <button id="nav-start"></button>
+               </div>
+               
             </div>
          </nav>
          <!-- END NAVIGATION -->
@@ -77,7 +80,7 @@
                   <div class="hero-card__code">
                      <canvas></canvas>
                   </div>
-                  
+
                   <div class="hero-card__header">
                      <h2>Print QR Cards!</h2>
                      <p>Fast, easy, free, and never fucks you out of your data!</p>
@@ -98,17 +101,17 @@
          <!-- END LANDING MODULE -->
 
          <!-- APP MODULE -->
-         <section class="app is-hidden" id="qr-card-app">
-            <div class="app__card-layout" id="card-layout">
+         <section class="app is-hidden" id="qr-app">
+            <div class="app__card-layout" id="qr-layout">
                <h2>Choose Your Card Layout</h2>
                <button class="next-button">NEXT</button>
             </div>
-            <div class="app__card-generator" id="card-generator">
+            <div class="app__card-generator" id="qr-generate">
                <h2>Generate Your Card</h2>
                <button class="next-button">NEXT</button>
                <button class="back-button">BACK</button>
             </div>
-            <div class="app__print-layout" id="card-print-layout">
+            <div class="app__print-layout" id="qr-print">
                <h2>Choose Your Print Layout</h2>
             </div>
          </section>
@@ -120,7 +123,7 @@
 
    <!-- BEGIN FOOTER -->
    <footer class="footer">
-      <div class="footer_container">
+      <div class="footer__container">
 
          <!-- FOOTER GO HERE!! -->
 
