@@ -1,0 +1,19 @@
+:root {
+
+    /* ONLY THE BEST FONTS */
+    --qr--fnt-heading: 
+    --qr--fnt-paragraph:
+
+    /* ALL OF THE PRETTIEST COLORS */
+    --qr--clr-red: hsl(0, 78%, 62%);
+    --qr--clr-cyan: hsl(180, 62%, 55%);
+    --qr--clr-orange: hsl(34, 97%, 64%);
+    --qr--clr-blue: hsl(212, 86%, 64%);
+    --qr--clr-dark-blue: hsl(218, 44%, 22%);
+    --qr--clr-gray: hsl(180, 6%, 46%);
+    --qr--clr-light-gray: hsl(212, 45%, 89%);
+    --qr--clr-light-gray-opaque: hsla(212, 46%, 89%, 0.85);
+
+    /* PADDING AND MARGINS */
+    --qr--layout-padding-side: 1rem;
+}
