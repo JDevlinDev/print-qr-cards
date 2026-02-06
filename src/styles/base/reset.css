@@ -28,24 +28,22 @@ dd {
   padding: 0;
 }
 
-/* Remove list styles (bullets/numbers) */
 ul,
 ol,
 menu,
 * li {
-  list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* Remove default hyperlink styles */
+
 a {
   text-decoration: none;
   color: inherit;
   font: inherit;
 }
 
-/* Remove default outline styles */
+
 button,
 input,
 textarea,
@@ -56,7 +54,7 @@ select {
   color: inherit;
 }
 
-/* Set the default button behavior */
+/* I like my buttons to be like links */
 button {
   cursor: pointer;
   background-color: transparent;
