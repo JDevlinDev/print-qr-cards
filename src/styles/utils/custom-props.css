@@ -1,8 +1,8 @@
 :root {
 
     /* ONLY THE BEST FONTS */
-    --qr--fnt-heading: 
-    --qr--fnt-paragraph:
+    --qr--fnt-heading: "Monoton", sans-serif;
+    --qr--fnt-paragraph: "Zalando Sans", sans-serif;
 
     /* ALL OF THE PRETTIEST COLORS */
     --qr--clr-red: hsl(0, 78%, 62%);
@@ -11,12 +11,17 @@
     --qr--clr-blue: hsl(212, 86%, 64%);
     --qr--clr-dark-blue: hsl(218, 44%, 22%);
     --qr--clr-gray: hsl(180, 6%, 46%);
+    --qr--clr-dark-gray: hsl(220, 3%, 18%);
     --qr--clr-light-gray: hsl(212, 45%, 89%);
-    --qr--clr-light-gray-opaque: hsla(212, 46%, 89%, 0.85);
+    --qr--clr-opaque-gray: hsla(212, 46%, 89%, 0.85);
 
-    /* PADDING AND MARGINS */
+    
     --qr--layout-padding-side: 1rem;
 
-    /* COLOR SETTINGS */
-    --qr-body-background: var(--qr--clr-blue);
+
+
+    /**** PAGE SETTINGS ****/
+    --qr--body-background: var(--qr--clr-blue);
+    --qr--body-font: 1.1rem/1.6 var(--qr--fnt-paragraph);
+    --qr--body-color: var(--qr--clr-dark-gray);
 }

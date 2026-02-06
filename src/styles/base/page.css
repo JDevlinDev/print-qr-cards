@@ -1,0 +1,8 @@
+body {
+    background-color: var(--qr--clr-blue);
+    font: var(--qr--body-font);
+    color: var(--qr--body-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

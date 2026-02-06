@@ -1,4 +1,4 @@
 nav {
     height: 75px;
-    background-color: #69d8eb;
+    background-color: var(--qr--clr-opaque-gray);
 }
