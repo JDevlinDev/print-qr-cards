@@ -1,0 +1,15 @@
+.landing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.landing__container {
+    width: var(--qr--page-container-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

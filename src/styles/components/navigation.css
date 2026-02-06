@@ -1,11 +1,27 @@
 .nav {
     height: 75px;
+    font-size: 1.2rem;
+    font-weight: 500;
     background-color: var(--qr--clr-opaque-gray);
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav__container {
+    width: var(--qr--page-container-width);
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.nav__links {
+
+    ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
 }

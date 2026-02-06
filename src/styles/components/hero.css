@@ -1,0 +1,19 @@
+.hero-card {
+    
+}
+
+.hero-card__code {
+    width: 222px;
+    height: 222px;
+    background-color: var(--qr--body-background);
+    border-radius: 1rem;
+    display: grid;
+    place-items: center;
+
+    canvas {
+        width: 200px;
+        height: 200px;
+        border-radius: 1rem;
+        background-color: white;
+    }
+}

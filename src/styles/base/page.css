@@ -1,3 +1,10 @@
+/********************
+PrinQRCards.com
+
+Base Page Styles
+***********************/
+
+
 body {
     background-color: var(--qr--clr-blue);
     font: var(--qr--body-font);
@@ -5,4 +12,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+button {
+    border-radius: .3rem;
+    background-color: var(--qr--clr-dark-gray);
+    color: var(--qr--clr-opaque-gray);
+    padding: 0.5rem 1rem;
 }

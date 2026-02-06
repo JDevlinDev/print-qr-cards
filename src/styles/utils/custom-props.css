@@ -24,4 +24,6 @@
     --qr--body-background: var(--qr--clr-blue);
     --qr--body-font: 1.1rem/1.6 var(--qr--fnt-paragraph);
     --qr--body-color: var(--qr--clr-dark-gray);
+
+    --qr--page-container-width: 75%;
 }
