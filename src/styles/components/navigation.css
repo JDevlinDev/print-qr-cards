@@ -1,4 +1,5 @@
-nav {
+.nav {
     height: 75px;
     background-color: var(--qr--clr-opaque-gray);
+    width: 100%;
 }
