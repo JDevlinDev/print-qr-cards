@@ -20,11 +20,14 @@
   "author": "Jason Sherrick",
   "license": "MIT",
   "dependencies": {
-    "qrcode": "^1.5.3"
+    "qrcode": "^1.5.4"
   },
   "devDependencies": {
-    "parcel": "^2.12.0",
-    "prettier": "^3.3.3",
-    "typescript": "^5.0.0"
+    "parcel": "^2.16.4",
+    "typescript": "^6.0.3"
+  },
+  "allowScripts": {
+    "typescript@6.0.3": true,
+    "parcel@2.16.4": true
   }
 }
